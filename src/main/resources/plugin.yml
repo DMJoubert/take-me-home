@@ -1,0 +1,11 @@
+name: beam-me-up
+main: com.carbon.plugins.beammeup.BeamMeUp
+version: "0.1"
+api-version: "1.16"
+author: Carbon
+description: "A simple plugin that sends a welcome message to anyone joining!"
+
+commands:
+  home:
+    description: "Send the player invoking the command back to their bed and if the bed doesn't exist it will notify them."
+    usage: /home
