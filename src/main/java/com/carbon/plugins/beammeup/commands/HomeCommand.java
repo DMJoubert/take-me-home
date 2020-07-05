@@ -15,7 +15,7 @@ public class HomeCommand implements CommandExecutor {
             if (bedSpawn == null) commandSender.sendMessage("You don't have a bed, silly!");
             else ((Player) commandSender).teleport(bedSpawn);
         } else {
-            Bukkit.getLogger().info("Only players are able to run this command");
+            commandSender.sendMessage("Only players are able to run this command");
         }
 
         return true;
