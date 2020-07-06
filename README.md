@@ -1,4 +1,4 @@
-# beam-me-up
+# take-me-home
 
 Minecraft server plugin, specifically developed for Paper 1.16.1, that adds a home command which teleports the player back to their bed.
 

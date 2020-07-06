@@ -1,11 +1,11 @@
-name: beam-me-up
-main: com.carbon.plugins.beammeup.BeamMeUp
-version: "0.1"
+name: take-me-home
+main: me.carbon.plugins.takemehome.TakeMeHome
+version: "1.0.0"
 api-version: "1.16"
 author: Carbon
-description: "A simple plugin that sends a welcome message to anyone joining!"
+description: "A simple plugin that allows players to teleport back to their bed."
 
 commands:
   home:
-    description: "Send the player invoking the command back to their bed and if the bed doesn't exist it will notify them."
+    description: "Send the player invoking the command back to their bed."
     usage: /home

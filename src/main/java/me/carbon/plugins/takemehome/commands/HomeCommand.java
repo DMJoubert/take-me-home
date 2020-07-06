@@ -1,4 +1,4 @@
-package com.carbon.plugins.beammeup.commands;
+package me.carbon.plugins.takemehome.commands;
 
 import org.bukkit.Location;
 import org.bukkit.command.Command;
